@@ -202,8 +202,29 @@ body {
   height: 400px;
   background-color: gray;
   border-bottom:rgb(192, 233, 70) 4px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .container3dot1 {
-  
+  color: rgb(255, 255, 255);
+  width: 600px;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+}
+
+.container3dot2 {
+  color:rgb(247, 247, 247);
+  margin-left: 350px;;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+span {
+  background-color:rgb(70, 70, 70);
 }
